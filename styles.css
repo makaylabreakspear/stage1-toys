@@ -246,7 +246,7 @@ display: flex;
 }
 /*******************responsive*******************/
 @media screen and (max-width: 23.4375rem) {
-    /*******NAV******/
+    
     #menu-toggle{
         display: block;
         position: fixed;
@@ -264,7 +264,7 @@ display: flex;
     .logo{
        display: none;
     }
-    /*******hero******/
+    
     .hero{
         height: 1fr;
         background-size: 43.75rem;
@@ -292,7 +292,7 @@ display: flex;
         width: 20px;
         text-align: center;
     }
-/******* about us hero******/
+
     .hero2{
         height: 1fr;
         background-size: 43.75rem;
@@ -320,7 +320,7 @@ display: flex;
         width: 20px;
         text-align: center;
     }
-    /*******products******/
+    
     .products{
         grid-template-columns: 1fr;
         height: 158rem;
@@ -336,14 +336,14 @@ display: flex;
     .items3{
         height: fit-content;
     }
-    /*******feet******/
+   
     .logo-foot img{
         width: 250%;
         margin-top: 4px;
         overflow: hidden;
       }
 }
-/*@media screen and (max-width: 48rem) {
+@media screen and (max-width: 48rem) {
     .hero{
         height: 400px;
         align-items: left;
@@ -390,6 +390,6 @@ display: flex;
         margin-top: -60px;
         overflow: hidden;
       }
-}*/
+}
 
 
