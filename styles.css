@@ -344,7 +344,7 @@ display: flex;
         overflow: hidden;
       }
 }*/
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 26.5625rem) {
     .hero{
         height: 400px;
         align-items: left;
