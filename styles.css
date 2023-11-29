@@ -246,7 +246,7 @@ display: flex;
 }
 /*******************responsive*******************/
 
-@media screen and (max-width: 31.25rem) {
+@media screen and (max-width: 50rem) {
    
     #menu-toggle{
         display: block;
