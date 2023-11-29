@@ -246,7 +246,7 @@ display: flex;
 }
 /*******************responsive*******************/
 
-@media screen and (max-width: 50rem) {
+@media screen and (min-width: 10rem) {
    
     #menu-toggle{
         display: block;
@@ -343,54 +343,4 @@ display: flex;
         margin-top: 4px;
         overflow: hidden;
       }
-}/*
-@media screen and (min-width: 10rem) {
-    .hero{
-        height: 400px;
-        align-items: left;
-    }
-    .hero h1{
-        margin-top: auto;
-        text-align: left;
-        margin-left: 15px;
-
-    }
-    .hero p{
-        margin: auto;
-        margin-left: 15px;
-        width: 50%;
-        font-size: small;
-        text-align: left;
-    }
-    .hero h3{
-        margin-top: auto;
-        margin-left: 8.125rem;
-    }
-    .products{
-        grid-template-columns: 1fr;
-        height: 150rem;
-    }
-    .products h3{
-       font-size: xx-large;
-    }
-    .items1{
-        border: none;
-        height: fit-content;
-    }
-    .items2{
-        border: none;
-        height: fit-content;
-    }
-    .items3{
-        border: none;
-        height: fit-content;
-    }
-    
-    .logo-foot img{
-        width: 70%;
-        margin-top: -60px;
-        overflow: hidden;
-      }
 }
-*/
-
