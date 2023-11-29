@@ -246,7 +246,7 @@ display: flex;
 }
 /*******************responsive*******************/
 
-/*@media screen and (max-width: 23.4375rem) {
+@media screen and (max-width: 31.25rem) {
    
     #menu-toggle{
         display: block;
@@ -343,8 +343,8 @@ display: flex;
         margin-top: 4px;
         overflow: hidden;
       }
-}*/
-@media screen and (max-width: 26.5625rem) {
+}/*
+@media screen and (min-width: 10rem) {
     .hero{
         height: 400px;
         align-items: left;
@@ -392,5 +392,5 @@ display: flex;
         overflow: hidden;
       }
 }
-
+*/
 
