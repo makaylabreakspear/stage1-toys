@@ -1,0 +1,395 @@
+/*******************stuff*******************/
+:root{
+    --dark-brown: #45474B;
+    --backgrounds: white;
+    --blue: #1640D6;
+    --beige: #F4DFC8;
+}
+@font-face {
+    font-family:"main";
+    src: url(font/bella-font/Bella-yw64Z.ttf);
+}
+@font-face {
+    font-family:"body";
+    src: url(font2/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 2.1875rem 2.1875rem;
+    padding: 0;
+}
+/*******************NAV*******************/
+.logo img{
+    width: 20%;
+    overflow: hidden;
+}
+.logo{
+    justify-content: start;
+}
+#menu{
+    margin-top: 3.5rem;
+    list-style-type: none;
+    display: flex;
+    gap: 1.25rem;
+    justify-content: end;
+    font-family: "main";
+}
+#menu a{
+    text-decoration: none;
+    color: var(--dark-brown);
+    padding: 2.25rem .125rem;
+    font-family: "main";
+    gap: 1.25rem;
+    justify-content: end;
+    align-items: center;
+}
+nav{
+    padding: .625rem;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-item-align: baseline;
+    overflow: hidden;
+    
+}
+#menu-toggle{
+    display: none;
+    background-color: var(--main-green);
+    color: var(--light-beige);
+    border: none;
+    font-family: "main";
+}
+#menu.active{
+display: flex;
+}
+/*******************HERO*******************/
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img/hero.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 700px;
+    overflow: hidden;
+    margin-top: 0;
+    border-radius: 2.5rem;
+}
+.hero h1{
+  margin-left: 9rem;
+  font-size:2.375rem ;
+  font-family: "main";
+}
+.hero p{
+    padding-right: 35rem;
+    text-align: center;
+    margin-left: 1.25rem;
+    margin-top: 3.125rem;
+    font-family:"body" ;
+}
+.hero h3{
+    font-family: "main";
+    text-decoration: none;
+    color: var(--dark-brown);
+    text-align: left;
+    margin-left: 23rem;
+}
+.hero a{
+    text-decoration: none;
+    color: var(--dark-brown);
+}
+/*******************PRODUCTS*******************/
+.products{
+    margin-top: .625rem;
+    height: 850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: .3125rem;
+    overflow: hidden;
+    background-color: var(--beige);
+}
+.items1{
+   background-image: url(img/halloween.png);
+   background-position: center;
+   background-size: cover;
+   background-repeat: none;
+   border-radius: 2.5rem;
+  
+}
+
+.items2{
+    background-image: url(img/snuggles.png);
+    background-position: center;
+   background-size: cover;
+   background-repeat: none;
+   border-radius: 2.5rem;
+  
+ }
+ .items3{
+    background-image: url(img/barb.png);
+    background-position: center;
+   background-size: cover;
+   background-repeat: none;
+   border-radius: 2.5rem;
+  
+ }
+ .products a{
+    text-decoration: none;
+    color: black;
+ }
+ .products h3{
+    font-family: "main";
+    font-size: x-large;
+   text-align: center;
+   overflow: hidden;
+ }
+ .products p{
+    font-family: "body";
+    justify-content: baseline;
+    text-align: left;
+    margin-top: 40rem;
+    margin-left: .625rem;
+    overflow: hidden;
+ }
+ .products h2{
+    font-family: "body";
+    font-size: medium;
+    text-align: right;
+    margin-right: 1.25rem;
+    align-content: baseline;
+ }
+
+/*******************Feet ashahsh*******************/
+.footer{
+    margin-top: 1.875rem;
+    display: flex;
+    flex-direction: row;
+    height: 5.375rem;
+    overflow: hidden;
+    color: var(--dark-brown);
+    text-decoration: none;
+    background-color: var(--beige);
+    border-radius: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--dark-brown);
+}
+#foot{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--dark-brown);
+    height: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+    margin-right: 15px;
+    align-items: baseline;
+    margin-top: 1.875rem;
+}
+
+#foot a{
+    list-style-type: none;
+    text-decoration: var(--dark-brown);
+    font-family: "main";
+}
+.logo-foot img{
+  width: 20%;
+  margin-top: -34px;
+  overflow: hidden;
+}
+/*******************hero about us*******************/
+.hero2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img/Untitled_Artwork\ 3.png);
+    background-size: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 900px;
+    overflow: hidden;
+    margin-top: 0;
+    border-radius: 2.5rem;
+}
+.hero2 h1{
+  margin-left: 20rem;
+  font-size:2.375rem ;
+  font-family: "main";
+  font-size: xxx-large;
+}
+.hero2 p{
+    padding-right: 35rem;
+    text-align: center;
+    width: 770px;
+    margin-left: 1.25rem;
+    margin-top: 3.125rem;
+    font-family:"body" ;
+}
+.hero2 h3{
+    font-family: "main";
+    text-decoration: none;
+    color: var(--dark-brown);
+    text-align: left;
+    margin-left: 23rem;
+}
+.hero2 a{
+    text-decoration: none;
+    color: var(--dark-brown);
+    font-family: "main";
+    text-decoration: none;
+    color: var(--dark-brown);
+    text-align: left;
+    margin-left: 23rem;
+}
+/*******************responsive*******************/
+@media screen and (max-width: 23.4375rem) {
+    /*******NAV******/
+    #menu-toggle{
+        display: block;
+        position: fixed;
+        z-index: 100000;
+    }
+    #menu{
+        display: none; 
+        position: fixed;
+        z-index: 100000;
+        flex-direction: column;
+        padding: .875rem;
+        background-color: var(--beige);
+        border-radius: .625rem;
+    }
+    .logo{
+       display: none;
+    }
+    /*******hero******/
+    .hero{
+        height: 1fr;
+        background-size: 43.75rem;
+        background-color: var(--beige);
+        background-repeat: none;
+        background-position: top right;
+    }
+    .hero h1{
+        font-size: larger;
+        margin: auto;
+        margin-top: 31rem;
+        text-align: center;
+    }
+    .hero p{
+        font-size: x-small;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .hero h3{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        font-size: small;
+        width: 20px;
+        text-align: center;
+    }
+/******* about us hero******/
+    .hero2{
+        height: 1fr;
+        background-size: 43.75rem;
+        background-color: var(--beige);
+        background-repeat: none;
+        background-position: top right;
+    }
+    .hero2 h1{
+        font-size: larger;
+        margin: auto;
+        margin-top: 31rem;
+        text-align: center;
+    }
+    .hero2 p{
+        font-size: x-small;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+    .hero2 h3{
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        font-size: small;
+        width: 20px;
+        text-align: center;
+    }
+    /*******products******/
+    .products{
+        grid-template-columns: 1fr;
+        height: 158rem;
+        
+        
+    }
+    .items1{
+        height: fit-content;
+    }
+    .items2{
+        height: fit-content;
+    }
+    .items3{
+        height: fit-content;
+    }
+    /*******feet******/
+    .logo-foot img{
+        width: 250%;
+        margin-top: 4px;
+        overflow: hidden;
+      }
+}
+/*@media screen and (max-width: 48rem) {
+    .hero{
+        height: 400px;
+        align-items: left;
+    }
+    .hero h1{
+        margin-top: auto;
+        text-align: left;
+        margin-left: 15px;
+
+    }
+    .hero p{
+        margin: auto;
+        margin-left: 15px;
+        width: 50%;
+        font-size: small;
+        text-align: left;
+    }
+    .hero h3{
+        margin-top: auto;
+        margin-left: 8.125rem;
+    }
+    .products{
+        grid-template-columns: 1fr;
+        height: 150rem;
+    }
+    .products h3{
+       font-size: xx-large;
+    }
+    .items1{
+        border: none;
+        height: fit-content;
+    }
+    .items2{
+        border: none;
+        height: fit-content;
+    }
+    .items3{
+        border: none;
+        height: fit-content;
+    }
+    
+    .logo-foot img{
+        width: 70%;
+        margin-top: -60px;
+        overflow: hidden;
+      }
+}*/
+
+
