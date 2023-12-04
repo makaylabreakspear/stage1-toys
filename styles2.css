@@ -1,0 +1,209 @@
+/*******************stuff*******************/
+:root{
+    --dark-brown: #45474B;
+    --backgrounds: white;
+    --blue: #1640D6;
+    --beige: #F4DFC8;
+    --light-beight: #FFD28F;
+}
+@font-face {
+    font-family:"main";
+    src: url(font/bella-font/Bella-yw64Z.ttf);
+}
+@font-face {
+    font-family:"body";
+    src: url(font2/Roboto_Mono/RobotoMono-VariableFont_wght.ttf);
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 2.1875rem 2.1875rem;
+    padding: 0;
+}
+/*******************NAV*******************/
+.logo img{
+    width: 20%;
+    overflow: hidden;
+}
+.logo{
+    justify-content: start;
+}
+#menu{
+    margin-top: 3.5rem;
+    list-style-type: none;
+    display: flex;
+    gap: 1.25rem;
+    justify-content: end;
+    font-family: "main";
+}
+#menu a{
+    text-decoration: none;
+    color: var(--dark-brown);
+    padding: 2.25rem .125rem;
+    font-family: "main";
+    gap: 1.25rem;
+    justify-content: end;
+    align-items: center;
+}
+nav{
+    padding: .625rem;
+    display: flex;
+    flex-direction: row;
+    -ms-flex-item-align: baseline;
+    overflow: hidden;
+    
+}
+#menu-toggle{
+    display: none;
+    background-color: var(--main-green);
+    color: var(--light-beige);
+    border: none;
+    font-family: "main";
+}
+#menu.active{
+display: flex;
+}
+/*******************product*******************/
+.product{
+    height: 30.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+}
+.product-desciption p{
+    font-family: "body";
+    font-size: smaller;
+}
+.product-desciption h1{
+    font-family: "main";
+}
+model-viewer{
+    width: 40rem;
+    height: 30.5rem;
+}
+/*******************detail*******************/
+.details{
+    background-color: var(--beige);
+    height: 30.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: .625rem;
+    overflow: hidden;
+}
+.details img{
+    height: 30.75rem;
+    border-radius: .625rem;
+}
+.details-text p{
+    font-family: "body";
+    color: var(--dark-brown);
+}
+.details-text h2{
+    font-family: "main";
+    color: var(--dark-brown);
+    text-align: center;
+}
+.details-text{
+    padding: 2rem;
+}
+.details-text h3{
+    text-align: center;
+    font-family: "body";
+    background-color: var(--blue);
+    padding: 20px;
+    border-radius: 1.875rem;
+    color: var(--beige);
+}
+
+/*******************Feet ashahsh*******************/
+.footer{
+    margin-top: 1.875rem;
+    display: flex;
+    flex-direction: row;
+    height: 5.375rem;
+    overflow: hidden;
+    color: var(--dark-brown);
+    text-decoration: none;
+    background-color: var(--beige);
+    border-radius: 20px;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--dark-brown);
+}
+#foot{
+    list-style-type: none;
+    text-decoration: none;
+    color: var(--dark-brown);
+    height: 6.25rem;
+    display: flex;
+    flex-direction: row;
+    gap: .625rem;
+    margin-right: 15px;
+    align-items: baseline;
+    margin-top: 1.875rem;
+}
+
+#foot a{
+    list-style-type: none;
+    text-decoration: var(--dark-brown);
+    font-family: "main";
+}
+.logo-foot img{
+  width: 20%;
+  margin-top: -34px;
+  overflow: hidden;
+}
+/*******************Feet ashahsh*******************/
+@media screen and (max-width: 53.125rem) {
+   
+    #menu-toggle{
+        display: block;
+        position: fixed;
+        z-index: 100000;
+    }
+    #menu{
+        display: none; 
+        position: fixed;
+        z-index: 100000;
+        flex-direction: column;
+        padding: .875rem;
+        background-color: var(--beige);
+        border-radius: .625rem;
+    }
+    .logo{
+       display: none;
+    }
+    
+    .product{
+       height: 140vh;
+       flex-direction: column;
+       align-items: center;
+      
+    }
+    .product-desciption{
+        align-items: center;
+        text-align: center;
+    }
+    model-viewer{
+        height: 50vh;
+    }
+
+    .details{
+            height: 180vh;
+            flex-direction: column-reverse;
+            align-items: center;
+    }
+    .details-text{
+        text-align: center;
+    }
+    
+    .logo-foot img{
+        width: 250%;
+        margin-top: 4px;
+        overflow: hidden;
+      }
+}
